@@ -1,4 +1,4 @@
-#ifdef LIBFT_H
+#ifndef LIBFT_H
 # define LIBFT_H
 
 
@@ -32,3 +32,9 @@ int     ft_isascii(int c);
 int     ft_isprint(int c);
 int     ft_toupper(int c);
 int     ft_tolower(int c);
+
+#define FT_MIN(a, b) ((a) <= (b) ? (a) : (b))
+#define FT_MAX(a, b) ((a) >= (b) ? (a) : (b))
+
+typedef unsigned char   t_uchar;
+#endif
