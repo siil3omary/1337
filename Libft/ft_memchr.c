@@ -3,7 +3,7 @@ void    *ft_memchr(const void *s, int c, size_t n){
     unsigned char *se = (unsigned char *)s;
 
 
-int i;
+size_t i;
 i = 0;
   
 while (i < n)

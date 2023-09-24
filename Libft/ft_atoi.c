@@ -4,7 +4,7 @@
     int i = 0;
     int sign = 1;
      int result = 0;
-    while (str[i] && str[i] == ' ' || str[i] >= 9 && str[i] <= 13)
+    while (str[i] &&(str[i] == ' ' || (str[i] >= 9 && str[i] <= 13)))
     {
        i++; 
     }
